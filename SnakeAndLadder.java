@@ -55,6 +55,11 @@ public class SnakeAndLadder
                 }
             }
             System.out.println("new position is : " +position);
+            if(position == 100)
+            {
+                System.out.println("congratulations player reached to winning position");
+                System.out.println("Game ended");
+            }
         }
     }
 }
