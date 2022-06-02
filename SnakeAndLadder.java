@@ -27,7 +27,7 @@ public class SnakeAndLadder {
         {
             int playValue = optionForPlay();
             int diceRollValue = throwDie();
-            System.out.println("dice count is: "+diceRollCount);
+
             System.out.println("~~~ Dice rolled value: "+diceRollValue);
 
 
@@ -53,12 +53,14 @@ public class SnakeAndLadder {
                     position=0;
                 }
             }
+            System.out.println("dice count is: "+diceRollCount);
+
             System.out.println("new position is : " +position);
             if(position == 100)
             {
                 System.out.println("congratulations player reached to winning position");
                 System.out.println("Game ended");
-                diceRollCount=0;
+
             }
         }
     }
@@ -66,9 +68,7 @@ public class SnakeAndLadder {
         System.out.println("Welcome to Snake and ladder game");
         System.out.println("Start position is: "  + startPosition);
         System.out.println("Winning position is: "  + winningPosition);
-        System.out.println("initial Dice roll count is: " + diceRollCount);
 
         play();
     }
-}git add
-
+}
