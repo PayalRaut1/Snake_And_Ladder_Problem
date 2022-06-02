@@ -1,6 +1,6 @@
 package com.bridgelabz;
 import java.util.Random;
-public class SnakeAndLaddergit
+public class SnakeAndLadder
 {
     public static final int startPosition = 0;
     public static final int winningPosition = 100;
